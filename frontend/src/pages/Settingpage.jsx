@@ -40,10 +40,10 @@ function Settingpage() {
                 data-theme={t}
               >
                 <div className="absolute inset-0 grid grid-cols-4 gap-px p-1">
-                  <div className="rounded-full bg-primary"></div>
-                  <div className="rounded-full bg-secondary"></div>
-                  <div className="rounded-full bg-accent"></div>
-                  <div className="rounded-full bg-neutral"></div>
+                  <div className="rounded-lg bg-primary"></div>
+                  <div className="rounded-lg bg-secondary"></div>
+                  <div className="rounded-lg bg-accent"></div>
+                  <div className="rounded-lg bg-neutral"></div>
                 </div>
               </div>
               <span className="text-[11px] font-medium truncate w-full text-center">
