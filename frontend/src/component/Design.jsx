@@ -8,8 +8,8 @@ function Design({title,subtitle}) {
             {[...Array(9)].map((_, i) => (
               <div
                 key={i}
-                className={`aspect-square  bg-primary/10 ${
-                  i % 2 === 0 ? "animate-ping rounded-full" : "rounded-3xl"
+                className={`aspect-square  bg-primary/10 rounded-2xl ${
+                  i % 2 === 0 ? "animate-pulse" : ""
                 }`}
               />
             ))}
